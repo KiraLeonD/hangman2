@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="hangman.css">
+    <link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+  </head>
+  <body>
+    <center>
+    <h1>2 Player-Hangman</h1>
+    <button id="startGame" onclick="startGame()">Start Game</button>
+    <button id="restartGame" onclick="restartGame()">Restart Game</button>
+    <div id="game-container">
+    <div id="player1">
+        <h2>Player 1</h2>
+        <div id="word1">  </div>
+        <div id="wordDisplay1 "></div>
+            <div id="status1"></div>
+            <div id="letter-buttons1">
+                <button class="letter-button1" onclick="guessLetter1('a')">A</button>
+                <button class="letter-button1" onclick="guessLetter1('b')">B</button>
+                <button class="letter-button1" onclick="guessLetter1('c')">C</button>
+                <button class="letter-button1" onclick="guessLetter1('d')">D</button>
+                <button class="letter-button1" onclick="guessLetter1('e')">E</button>
+                <button class="letter-button1" onclick="guessLetter1('f')">F</button>
+                <button class="letter-button1" onclick="guessLetter1('g')">G</button>
+                <button class="letter-button1" onclick="guessLetter1('h')">H</button>
+                <button class="letter-button1" onclick="guessLetter1('i')">I</button>
+                <button class="letter-button1" onclick="guessLetter1('j')">J</button>
+                <button class="letter-button1" onclick="guessLetter1('k')">K</button>
+                <button class="letter-button1" onclick="guessLetter1('l')">L</button>
+                <button class="letter-button1" onclick="guessLetter1('m')">M</button>
+                <button class="letter-button1" onclick="guessLetter1('n')">N</button>
+                <button class="letter-button1" onclick="guessLetter1('o')">O</button>
+                <button class="letter-button1" onclick="guessLetter1('p')">P</button>
+                <button class="letter-button1" onclick="guessLetter1('q')">Q</button>
+                <button class="letter-button1" onclick="guessLetter1('r')">R</button>
+                <button class="letter-button1" onclick="guessLetter1('s')">S</button>
+                <button class="letter-button1" onclick="guessLetter1('t')">T</button>
+                <button class="letter-button1" onclick="guessLetter1('u')">U</button>
+                <button class="letter-button1" onclick="guessLetter1('v')">V</button>
+                <button class="letter-button1" onclick="guessLetter1('w')">W</button>
+                <button class="letter-button1" onclick="guessLetter1('x')">X</button>
+                <button class="letter-button1" onclick="guessLetter1('y')">Y</button>
+                <button class="letter-button1" onclick="guessLetter1('z')">Z</button>
+               
+            </div>
+        </div>
+        <div id="points1"></div>
+        <div id="lives1"></div>
+    </div>
+    <div id="game-container2">
+    <div id="player2">
+        <h2>Player 2</h2>
+        <div id="word2"></div>
+        <div id="wordDisplay2"></div>
+            <div id="status2"></div>
+            <div id="letter-buttons2">
+              <button class="letter-button2" onclick="guessLetter2('a')">A</button>
+              <button class="letter-button2" onclick="guessLetter2('b')">B</button>
+              <button class="letter-button2" onclick="guessLetter2('c')">C</button>
+              <button class="letter-button2" onclick="guessLetter2('d')">D</button>
+              <button class="letter-button2" onclick="guessLetter2('e')">E</button>
+              <button class="letter-button2" onclick="guessLetter2('f')">F</button>
+              <button class="letter-button2" onclick="guessLetter2('g')">G</button>
+              <button class="letter-button2" onclick="guessLetter2('h')">H</button>
+              <button class="letter-button2" onclick="guessLetter2('i')">I</button>
+              <button class="letter-button2" onclick="guessLetter2('j')">J</button>
+              <button class="letter-button2" onclick="guessLetter2('k')">K</button>
+              <button class="letter-button2" onclick="guessLetter2('l')">L</button>
+              <button class="letter-button2" onclick="guessLetter2('m')">M</button>
+              <button class="letter-button2" onclick="guessLetter2('n')">N</button>
+              <button class="letter-button2" onclick="guessLetter2('o')">O</button>
+              <button class="letter-button2" onclick="guessLetter2('p')">P</button>
+              <button class="letter-button2" onclick="guessLetter2('q')">Q</button>
+              <button class="letter-button2" onclick="guessLetter2('r')">R</button>
+              <button class="letter-button2" onclick="guessLetter2('s')">S</button>
+              <button class="letter-button2" onclick="guessLetter2('t')">T</button>
+              <button class="letter-button2" onclick="guessLetter2('u')">U</button>
+              <button class="letter-button2" onclick="guessLetter2('v')">V</button>
+              <button class="letter-button2" onclick="guessLetter2('w')">W</button>
+              <button class="letter-button2" onclick="guessLetter2('x')">X</button>
+              <button class="letter-button2" onclick="guessLetter2('y')">Y</button>
+              <button class="letter-button2" onclick="guessLetter2('z')">Z</button>
+            </div>
+        </div>
+        <div id="points2"></div>
+        <div id="lives2"></div>
+    </div>
+  </center>
+    <script src="hangman.js"></script>
+  </body>
+</html>

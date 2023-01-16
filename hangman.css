@@ -1,0 +1,105 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+body {
+  text-align: center;
+  background-image: linear-gradient(#C973FF,#AEBAF8);
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;	
+  font-family: 'Games', sans-serif;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+
+/*      player1    */
+#game-container {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: red;  
+}
+
+#word1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#status1 {
+  margin-bottom: 20px;
+  color:white;
+}
+
+.letter-button1 {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.letter-button1:hover {
+  background-color: #e6e6e6 ;
+}
+
+.incorrect {
+  color: red;
+}
+
+#points1 {
+  color:white;
+}
+
+#lives1 {
+  color: white;
+}
+
+/*      player2    */
+#game-container2 {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: blue;
+}
+
+#word2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+#status2 {
+  margin-bottom: 20px;
+  color:white;
+}
+
+.letter-button2 {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+
+.letter-button2:hover {
+  background-color: #e6e6e6;
+}
+
+.incorrect2 {
+  color: red;
+}
+#points2 {
+  color:white;
+}
+
+#lives2 {
+  color: white;
+}
